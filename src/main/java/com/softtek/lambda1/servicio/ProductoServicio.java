@@ -1,7 +1,7 @@
-package com.softtek.lambda.servicio;
+package com.softtek.lambda1.servicio;
 
-import com.softtek.lambda.modelo.Producto;
-import com.softtek.lambda.repo.IProductoRepo;
+import com.softtek.lambda1.modelo.Producto;
+import com.softtek.lambda1.repo.IProductoRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

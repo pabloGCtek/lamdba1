@@ -1,7 +1,7 @@
-package com.softtek.lambda.servicio;
+package com.softtek.lambda1.servicio;
 
 
-import com.softtek.lambda.modelo.Producto;
+import com.softtek.lambda1.modelo.Producto;
 
 import java.util.List;
 

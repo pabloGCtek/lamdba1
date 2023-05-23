@@ -1,9 +1,9 @@
-package com.softtek.lambda.repo;
+package com.softtek.lambda1.repo;
 
-import com.softtek.lambda.modelo.Producto;
+import com.softtek.lambda1.modelo.Producto;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface IProductoRepo {
-    public List<Producto> findAll();
+public interface IProductoRepo extends JpaRepository<Producto,Short> {
 }

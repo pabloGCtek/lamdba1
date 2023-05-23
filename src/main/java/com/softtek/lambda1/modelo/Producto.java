@@ -1,4 +1,4 @@
-package com.softtek.lambda.modelo;
+package com.softtek.lambda1.modelo;
 
 
 import jakarta.persistence.Column;
@@ -26,5 +26,5 @@ public class Producto {
     @Column(name="units_in_stock")private Short unidadesEsistencia;
     @Column(name="units_on_order")private Short unidadesOrdenar;
     @Column(name="reorder_level")private Short nivelReordenar;
-    @Column(name="discontinued")private Short discontinuado;
+    @Column(name="discontinued")private Integer discontinuado;
 }
