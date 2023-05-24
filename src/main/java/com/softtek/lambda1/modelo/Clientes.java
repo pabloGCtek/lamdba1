@@ -23,7 +23,7 @@ public class Clientes {
     @Column(name="city") private String ciudad;
     @Column(name="region") private String region;
     @Column(name="postal_code") private String codigoPostal;
-    @Column(name="country") private String country;
+    @Column(name="country") private String pais;
     @Column(name="phone") private String telefono;
     @Column(name="fax") private String fax;
 }

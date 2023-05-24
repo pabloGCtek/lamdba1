@@ -19,6 +19,7 @@ public class Orders {
     @Id
     @Column(name="order_id") private Short id;
     @Column(name="customer_id") private String idCliente;
+    @Column(name="employee_id") private Short idEmpleado;
     @Column(name="order_date") private Date fechaOrden;
     @Column(name="required_date") private Date fechaReq;
     @Column(name="shipped_date") private Date fechaEnvio;;
